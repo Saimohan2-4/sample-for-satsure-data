@@ -227,4 +227,4 @@ def update_page_3(selected_sprint):
     return rework_fig, task_distribution_fig, cumulative_flow_fig
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(host='0.0.0.0', port=8000,debug=True)
